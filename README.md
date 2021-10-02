@@ -1,2 +1,2 @@
 # Android_Project_MYJ
-#I am trying to make my first chat app.
+#Contains the Android Projects I am currently making.
