@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1090623371582",
+    "project_id": "myj-chatbox",
+    "storage_bucket": "myj-chatbox.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090623371582:android:f09272d5a8bcad3f6a146f",
+        "android_client_info": {
+          "package_name": "com.yousufjamil.myjchatbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1090623371582-sids7ir9t1o9q26u4entmh2nt9frn7lv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDelK3xDRtK5T1obIB_WBTnfGHXoWrfg4Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1090623371582-sids7ir9t1o9q26u4entmh2nt9frn7lv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
