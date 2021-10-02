@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">MYJ Chatbox</string>
+    <string name="enter_name">Enter Your Name</string>
+    <string name="enter_email">Enter Your Email</string>
+    <string name="enter_password">Enter your Password</string>
+    <string name="label_sign_up">Sign Up</string>
+    <string name="label_sign_in">Sign In</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="btn_login">Login</string>
+    <string name="enter_confirm_password">Confirm Your Password</string>
+
 </resources>
