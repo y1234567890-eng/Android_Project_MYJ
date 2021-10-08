@@ -11,5 +11,6 @@
     <color name="PrimaryDark">#813fd7</color>
     <color name="Accent">#FFFFFFFF</color>
     <color name="Text">#464646</color>
+    <color name="DarkGray">#464646</color>
     <color name="colorTextBackground">#f5f5f5</color>
 </resources>
