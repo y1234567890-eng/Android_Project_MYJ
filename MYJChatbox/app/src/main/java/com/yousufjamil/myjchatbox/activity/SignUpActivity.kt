@@ -1,4 +1,4 @@
-package com.yousufjamil.myjchatbox
+package com.yousufjamil.myjchatbox.activity
 
 import android.content.Intent
 import android.os.Bundle
@@ -9,6 +9,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
+import com.yousufjamil.myjchatbox.R
 import kotlinx.android.synthetic.main.activity_login.*
 import kotlinx.android.synthetic.main.activity_sign_up.*
 import kotlinx.android.synthetic.main.activity_sign_up.etEmail
@@ -33,22 +34,22 @@ class SignUpActivity : AppCompatActivity() {
             val confirmPassword = etConfirmPassword.text.toString()
 
             if (TextUtils.isEmpty(userName)){
-                Toast.makeText(applicationContext,"username is required",Toast.LENGTH_SHORT).show()
+                Toast.makeText(applicationContext,"Username is required",Toast.LENGTH_SHORT).show()
             }
             if (TextUtils.isEmpty(email)){
-                Toast.makeText(applicationContext,"email is required",Toast.LENGTH_SHORT).show()
+                Toast.makeText(applicationContext,"Email is required",Toast.LENGTH_SHORT).show()
             }
 
             if (TextUtils.isEmpty(password)){
-                Toast.makeText(applicationContext,"password is required",Toast.LENGTH_SHORT).show()
+                Toast.makeText(applicationContext,"Password is required",Toast.LENGTH_SHORT).show()
             }
 
             if (TextUtils.isEmpty(confirmPassword)){
-                Toast.makeText(applicationContext,"confirm password is required",Toast.LENGTH_SHORT).show()
+                Toast.makeText(applicationContext,"Confirm Your password To Sign Up",Toast.LENGTH_SHORT).show()
             }
 
             if (!password.equals(confirmPassword)){
-                Toast.makeText(applicationContext,"password not match",Toast.LENGTH_SHORT).show()
+                Toast.makeText(applicationContext,"Password Don't Match",Toast.LENGTH_SHORT).show()
             }
             registerUser(userName,email,password)
 
@@ -83,7 +84,7 @@ class SignUpActivity : AppCompatActivity() {
                                 etEmail.setText("")
                                 etPassword.setText("")
                                 etConfirmPassword.setText("")
-                                val intent = Intent(this@SignUpActivity,HomeActivity::class.java)
+                                val intent = Intent(this@SignUpActivity, HomeActivity::class.java)
                                 startActivity(intent)
                             }
                         }

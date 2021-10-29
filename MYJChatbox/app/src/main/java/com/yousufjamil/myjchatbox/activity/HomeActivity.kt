@@ -1,7 +1,8 @@
-package com.yousufjamil.myjchatbox
+package com.yousufjamil.myjchatbox.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.yousufjamil.myjchatbox.R
 
 class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
