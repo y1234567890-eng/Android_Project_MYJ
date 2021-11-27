@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-android-extensions'
 }
 
 android {
@@ -8,11 +9,11 @@ android {
     buildToolsVersion "31.0.0"
 
     defaultConfig {
-        applicationId "com.yousufjamil.myjsweetfeetzltd"
+        applicationId "com.yousufjamil.sweetfeetzltd"
         minSdkVersion 16
         targetSdkVersion 31
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "2.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
