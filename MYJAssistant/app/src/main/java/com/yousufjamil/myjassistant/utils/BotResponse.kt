@@ -57,6 +57,40 @@ object BotResponse {
             message.contains("search") -> {
                 OPEN_SEARCH
             }
+            //Salam response
+            message.contains("salam") -> {
+                "Walaikumassalam Warahmatullah-i-Wabarakatuh. How may be I of your help?"
+            }
+            //What's up?
+            message.contains("what's up") -> {
+                when (random) {
+                    0 -> "I'm doing great! Thanks for asking!"
+                    1 -> "Feeling great! What about you?"
+                    2 -> "I'm fine. What about you?"
+                    else -> "Unknown error!"
+                }
+            }
+            //Bad language
+            message.contains("idiot") -> {
+                "Please do not use slang language."
+            }
+            //Commands
+            message.contains("what can you do") -> {
+                "I can do multiple things: \n" +
+                        "- Respond to 'hello' or 'salam' greeting \n" +
+                        "- Respond to 'what's up' or 'how are you?' \n" +
+                        "- Flip a coin \n" +
+                        "- Solve difficult mathematical sums for you \n" +
+                        "- Tell you the time \n" +
+                        "- Open google for you \n" +
+                        "- Search google for you\n" +
+                        "- Make tea for you 🙂"
+            }
+            //Tea
+            message.contains("make") && message.contains("tea") -> {
+                "Here's your tea: \n" +
+                        "☕"
+            }
             else ->{
                 when (random) {
                     0 -> "I don't understand..."
