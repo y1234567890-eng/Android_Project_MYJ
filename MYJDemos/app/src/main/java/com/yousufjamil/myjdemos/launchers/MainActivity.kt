@@ -1,10 +1,12 @@
-package com.yousufjamil.myjworld
+package com.yousufjamil.myjdemos.launchers
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.view.WindowManager
+import com.yousufjamil.myjdemos.legal.AgreeActivity
+import com.yousufjamil.myjdemos.R
 
 @Suppress("DEPRECATION")
 class MainActivity : AppCompatActivity() {
@@ -20,12 +22,10 @@ class MainActivity : AppCompatActivity() {
 
         Handler().postDelayed(
             {
-                val homeIntent = Intent(this, HomeActivity::class.java)
-                startActivity(homeIntent)
+                val legalIntent = Intent(this, AgreeActivity::class.java)
+                startActivity(legalIntent)
                 finish()
             }, 3000
         )
-
-
     }
 }
