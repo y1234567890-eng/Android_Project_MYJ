@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Juma\'a Surahs</string>
+    <string name="surah_al_kahf">Surah Al Kahf</string>
+    <string name="surah_ad_dukhan">Surah Ad Dukhan</string>
+    <string name="surah_al_jumah">Surah Al Jumah</string>
+    <string name="qur_an_background_image">Qur\'an Background Image</string>
+    <string name="read_the_surahs_you_need_to_read_every_friday_from_your_mobile">Read The Surahs You Need To Read Every Friday From Your Mobile</string>
+    <string name="let_s_go">Let\'s go</string>
+    <string name="select_a_surah">Select a Surah:</string>
+    <string name="play_surah_dukhan">Play Surah Dukhan</string>
+    <string name="replay_surah_dukhan_from_start">Replay Surah Dukhan from start</string>
+    <string name="back_to_surahs">Back to Surahs</string>
+    <string name="surah_dukhan">Surah Dukhan</string>
+    <string name="next_page">Next Page</string>
+    <string name="use_buttons_to_navigate_through_pages">Use buttons to navigate through pages</string>
+    <string name="previous_page">Previous Page</string>
+    <string name="play_surah_jumah">Play Surah Jumah</string>
+    <string name="replay_surah_jumah_from_start">Replay Surah Jumah From Start</string>
+    <string name="play_surah_kahf">Play Surah Kahf</string>
+    <string name="replay_surah_kahf_from_start">Replay Surah Kahf from start</string>
+    <string name="surah_kahf">Surah Kahf</string>
+</resources>
